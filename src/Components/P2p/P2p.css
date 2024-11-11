@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+.P2p_first_div {
+    background-image: url('../Assets/firstP2P.png');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    padding: 50px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.inner_Div_first_P2p h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.inner_Div_first_P2p button {
+    background-color: #000;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+    margin-top: 1.5rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.firstImage_div {
+    display: flex;
+    justify-content: end;
+    margin-top: -4rem;
+}
+
+.row_p2p {
+    /* margin: 0px !important; */
+}
+
+
+.P2p_second_div {
+    background-image: url('../Assets/P2p_bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    padding: 50px;
+    width: 100%;
+}
+
+.inner_Div_second_P2p h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.inner_Div_second_P2p button {
+    background-color: #000;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+    margin-top: 1.5rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.secondImage_div {
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+.row_p2p {
+    margin: 0px !important;
+}
+
+
+.secondImage_div img {
+    width: 70%;
+}
+
+@media screen and (max-width:600px) {
+    .row_p2p {
+        margin: auto !important;
+    }
+
+    .P2p_second_div {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .inner_Div_second_P2p h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .secondImage_div img {
+        width: 100%;
+    }
+
+    .P2p_first_div {
+        height: auto;
+    }
+
+    .inner_Div_first_P2p h2 {
+        font-size: 1.5rem;
+    }
+    .firstImage_div {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    .row_p2p {
+        margin: auto !important;
+    }
+
+    .P2p_second_div {
+        height: 50vh;
+        /* margin-top: 2rem; */
+    }
+
+    .inner_Div_second_P2p h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .secondImage_div img {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .P2p_first_div {
+        height: 50vh;
+    }
+
+    .inner_Div_first_P2p h2 {
+        font-size: 1.5rem;
+    }
+    .firstImage_div {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}

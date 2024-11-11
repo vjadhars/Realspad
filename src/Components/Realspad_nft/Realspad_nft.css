@@ -1,0 +1,84 @@
+.product_card {
+  padding: 30px;
+
+  background: -moz-linear-gradient(
+    327.77deg,
+    rgba(45, 255, 237, 0.1) 0%,
+    rgba(58, 167, 255, 0.1) 99.65%
+  );
+  background: linear-gradient(
+    122.23deg,
+    rgba(45, 255, 237, 0.1) 0%,
+    rgba(58, 167, 255, 0.1) 99.65%
+  );
+  border-radius: 40px ;
+}
+.firs_ro{
+  height: 230px;
+}
+
+.card_bg_img{
+    background-image: url(../Assets/card_1.png  ) !important;
+    background-size: 100% 100%; 
+}
+.card_img_2{
+    background-image: url(../Assets/card_2.png) !important;
+    background-size: 100% 100%; 
+
+}
+
+.nimers {
+    background: linear-gradient(122deg, rgba(45, 255, 237, 0.1) 0%, rgba(58, 167, 255, 0.1) 99.65%);
+padding: 30px 10px ;
+}
+
+.white_box_mata {
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.secnd_ro{
+  height: 370px;
+}
+
+.lst_ro{
+  height: 240px;
+}
+
+@media only screen and (max-width:700px){
+  .firs_ro{
+    height: auto !important;
+  }
+  .secnd_ro{
+    height: auto !important;
+  }
+  .lst_ro{
+    height: auto !important;
+  }
+  .nimers
+  {
+    padding: 30px 10px !important;
+  }
+  .main_buy_eth{
+    padding: 4rem 0px !important;
+  }
+  .eco_native{
+    padding: 30px 0px !important;
+  }
+  .main_real_spad_rod{
+    padding: 40px 0px !important;
+  }
+  .Main_footer_bg{
+    padding: 20px 0px !important;
+  }
+  .landing_box{
+    padding: 20px 10px !important;
+  }
+  .buy_BTN{
+    padding: 15px 5px !important;
+  }
+}

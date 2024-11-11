@@ -1,0 +1,291 @@
+.upper_tkn {
+    color: #151522;;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-emphasis: none;
+    text-transform: uppercase;
+    text-align: center;
+      font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.token_nomics_main {
+    padding: 40px 10px ;
+    /* background-image: url('../Assets/circle.svg'); */
+    background-position:left;
+    background-size:50%;
+    background-repeat: no-repeat;
+
+      font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.lower_tkn {
+    color: #151522;
+    font-size: 3rem;
+    font-weight: 600;
+    text-emphasis: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.pbulcos {
+    padding: 10px;
+    position: relative;
+}
+.pbulcos:before {
+    background: red!important;
+    border-radius: 15px;
+    content: "";
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    width: 4px;
+}
+.percentage_totken {
+    font-size: 19px;
+    font-weight: 700;
+    color: #151522;
+}
+.areab_nae {
+    color: #151522;
+}
+.bout_tokn {
+    background-color: #2E2E2E;
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.private{
+    padding: 10px;
+    position: relative;
+}
+.private::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -10px;
+    background: #3D88FB !important;
+    border-radius: 15px;
+
+}
+.market{
+    padding: 10px;
+    position: relative;
+}
+.market::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -10px;
+    background: #5637C8 !important;
+    border-radius: 15px;
+
+}
+.techn{
+    padding: 10px;
+    position: relative;
+}
+.techn::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -10px;
+    background: #00D89E !important;
+    border-radius: 15px;
+
+}
+.advs{
+    padding: 10px;
+    position: relative;
+}
+.advs::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -10px;
+    background: #9116CD !important;
+    border-radius: 15px;
+
+}
+.liqu{
+    padding: 10px;
+    position: relative;
+}
+.liqu::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -10px;
+    background: #FFB100 !important;
+    border-radius: 15px;
+
+}
+.airdrop{
+    padding: 10px;
+    position: relative;
+}
+.airdrop::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -10px;
+    background: #C19430 !important;
+    border-radius: 15px;
+
+}
+.holdings{
+    padding: 10px;
+    position: relative;
+}
+.holdings::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: -10px;
+    background: #F0F0F0 !important;
+    border-radius: 15px;
+}
+
+.box_token_info {
+    /* background-color: #2E2E2E; */
+    background: radial-gradient(276.49% 100% at 50.11% 100.00%, rgba(17, 153, 250, 0.40) 0%, rgba(17, 153, 250, 0.00) 100%),linear-gradient(0deg, rgba(1, 1, 24, 0.40) 0%, rgba(1, 1, 24, 0.40) 100%),#002F61;
+    padding: 30px;
+    border-radius: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+}
+.text_info {
+    /* width: 50%; */
+}
+.clr_box {
+    background-color: #0074FF;
+    padding: 10px 15px;
+    color: #151522;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.tokn_add {
+    color: #151522;
+}
+
+.text_info h5 {
+font-size: 1.4rem;
+font-weight: 400;
+text-transform: capitalize;
+  font-family: "Red Hat Text", sans-serif !important;  
+
+    color: #151522;;
+
+}
+.text_info p {
+    margin-bottom: 0px;
+    color: #151522;;
+
+
+}
+
+.pro_head {
+    color: #151522;;
+font-size: 1.5rem;
+align-items: center;
+display: flex;
+font-weight: 500;
+  font-family: "Red Hat Text", sans-serif !important;  
+
+
+}
+
+.proggress_box{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.progress_bar {
+    position: relative;
+    background-color: #151522;
+    border-radius: 20px;
+    height: 20px;
+    width: 100%;
+}
+
+.inner_pro {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: #0E79AB;
+    border-radius: 20px;
+    width: 60%;
+}
+
+
+.white_paper_box {
+    background: linear-gradient(122.23deg, rgba(45, 255, 237, 0.1) 0%, rgba(58, 167, 255, 0.1) 99.65%);
+    
+    padding: 20px 10px 20px 15px;
+    border-radius: 20px;
+    color: #151522;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  
+}
+
+.names_re  {
+   text-transform: uppercase;
+   color: #151522 !important  ;
+     font-family: "Red Hat Text", sans-serif !important;  
+
+   
+}
+
+.circle_box{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: end;
+}
+
+
+.cir{
+    background-color: #151522;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:600px){
+    .lower_tkn{
+        font-size: 24px;
+    }
+    .clr_box{
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+    .small_pading{
+        padding:20px ;
+    }
+}

@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.Main_footer_bg{
+    padding: 20px 10px ;
+    background-color: black;
+}
+
+.cpr {
+    color: #c1c7cb;
+    margin-top: 1rem;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+.letter_news{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px ;
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
+.letter_news::placeholder{
+    color: black    ;
+}
+.footer_links{
+    text-decoration: none;
+    font-weight: 500;
+    display: block ;
+margin: 5px 0;
+}
+
+.subs_btn {
+    padding: 12px;
+    background: linear-gradient(89deg, #00BFA9 -0.45%, #00A6FF 50.36%, #E0B8FF 100.12%);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    /* margin-top: 1rem; */
+    font-family: "Red Hat Text", sans-serif !important;
+    text-transform: capitalize;
+}
+
+.join_c{
+    text-transform:capitalize;
+    color: #c1c7cb;
+    font-size:1.3rem;
+    text-decoration: underline;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.icons_clr {
+    font-size:1.5rem  !important;
+    color:black !important;
+}
+
+
+.around_social {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.alli {
+    color: #c1c7cb;
+    /* font-family: 'Poppins', sans-serif; */
+    /* text-transform: capitalize; */
+
+}
+.social_icons a img{
+    width: 15%;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .letter_news{
+        width: 80% !important;
+    }
+}

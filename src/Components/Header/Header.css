@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+body {
+ 
+
+  background-color: white !important;
+
+}
+
+.main_headre {
+  background-color: transparent;
+  margin-top: 1rem;
+}
+
+
+.main_logo {
+  width: 170px;
+}
+
+.main_logo img {
+  width: 100%;
+}
+
+.header_links {
+  color: #151522 !important;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0px 1px;
+  white-space: nowrap !important;
+
+
+}
+
+body{
+  overflow-x: hidden !important;
+}
+
+.site_font{
+  font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.wallet_button {
+  color: #0E79AB;
+  background: transparent;
+  border: 1px solid #0E79AB;
+  font-family: "Red Hat Text", sans-serif;  
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  padding: 5px 15px !important;
+
+}
+
+
+
+
+.wallet_button2 {
+  background-color: transparent;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #151522 !important;
+  border: 1px solid #0E79AB;
+  padding: 10px 30px !important;
+  /* margin-left: -1rem; */
+}
+.in_resonsive{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 35%;
+}
+@media only screen and (max-width:600px) {
+  .header_links {
+    text-align: center !important;
+  }
+  .main_logo{
+    width: 100px !important;
+  }
+
+}
+
+@media (max-width:800px)  {
+  .wallet_button{
+    display: none;
+  }
+}
+
+@media (min-width:800px)  {
+  .wallet_button2{
+    display: none;
+  }
+}

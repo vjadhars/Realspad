@@ -1,0 +1,125 @@
+.main_real_spad_rod{
+    mix-blend-mode: normal;
+    padding: 40px 10px ;
+    background: radial-gradient(103.06% 229.25% at 101.35% -2.11%, #30E1E0 0%, rgba(217, 137, 255, 0) 100%), linear-gradient(265.55deg, #3EF7E1 -15.1%, #56C4FF 52.35%, #FF74BE 118.41%);
+}
+
+
+
+.main_real_spad_rod {
+    padding: 40px 10px ;
+}
+
+.road_box {
+    background: linear-gradient(122.23deg, rgba(45, 255, 237, 0.1) 0%, rgba(58, 167, 255, 0.1) 99.65%);
+padding: 20px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.road_box p {
+    color: #151522;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.line {
+    width: 100% !important;
+    background-color: #151522;
+    margin: 4rem 0 2rem 0;
+    position: relative;
+    height: 2px ;
+}
+
+.circlw_road {
+    position: absolute;
+    background-color:#0E79AB ;
+    padding: 20px;
+    border-radius: 50%;
+    left: 15%;
+    top: -20px;
+}
+.circlw_road4 {
+    position: absolute;
+    background-color:#0E79AB ;
+    padding: 20px;
+    border-radius: 50%;
+    right: 15%;
+    top: -20px;
+}
+.circlw_road2 {
+    position: absolute;
+    background-color:#0E79AB ;
+    padding: 20px;
+    border-radius: 50%;
+    left: 48%;
+    top: -20px;
+}
+.circlw_road1{
+    position: absolute;
+    background-color:#0E79AB ;
+    padding: 20px;
+    border-radius: 50%;
+    left: 25%;
+    top: -20px;
+}
+.circlw_road3{
+    position: absolute;
+    background-color:#0E79AB ;
+    padding: 20px;
+    border-radius: 50%;
+    left: 73%;
+    top: -20px;
+}
+
+
+.circlw_road::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 69px;
+    border-left: 1px dashed #0E79AB;
+}
+.circlw_road4::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 69px;
+    border-left: 1px dashed #0E79AB;
+}
+
+.last_row{
+    margin-top: 4.4rem;
+}
+.circlw_road2::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 69px;
+    border-left: 1px dashed #0E79AB;
+}
+
+
+
+
+.circlw_road1::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    top: -28px;
+    height: 48px;
+    
+    border-left: 1px dashed #0E79AB;
+}
+.circlw_road3::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    top: -28px;
+    height: 48px;
+    
+    border-left: 1px dashed #0E79AB;
+}
+.road_ma {
+    margin: 3.3rem 0;
+}

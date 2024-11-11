@@ -1,0 +1,76 @@
+.mainBoxDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3rem;
+}
+
+.term_condtions li{
+  list-style-type:decimal;
+
+}
+.CopyBTN{
+  background-color: #0E79AB !important;
+  color: #151522;
+  padding: 15px;
+  border-radius: 0px 20px 20px 0px;
+  border-left: 1px solid #fff !important;
+  border:none ;
+}
+.copy_input_b {
+  background-color: #0E79AB;
+  padding: 5px 0px;
+ border-radius: 10px 0px 0px 10px;
+}
+.singleBoxStyle {
+  background-color: #0E79AB !important;
+  color: #151522 !important ;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+  z-index: 2;
+}
+.singleBoxStyle div {
+  color: #fff;
+  font-size: 20px;
+}
+.singleBoxStyle:hover {
+  border: 2px solid white !important;
+
+}
+
+.igniatio {
+  font-size: 32px !important;
+}
+
+.main_reaspa_here {
+  padding: 20px 10px 60px 10px;
+  /* background-image: url('../Assets/bg5.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.air_drop_btns {
+  padding: 10px 45px !important;
+}
+
+.mainsfsk:hover {
+  border: 2px solid white !important;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  .air_drop_btns {
+    padding: 10px 15px !important;
+  }
+}

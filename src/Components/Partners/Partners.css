@@ -1,0 +1,12 @@
+.main_parthners {
+    padding: 60px 10px;
+}
+
+.partner_box {
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

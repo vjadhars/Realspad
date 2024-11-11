@@ -1,0 +1,45 @@
+.main_buy_eth{
+    padding: 4rem 10px;
+    background-color: #D6CFFF;
+}
+
+.buy_main_box_here{
+    background: linear-gradient(
+        122.23deg,
+        rgba(45, 255, 237, 0.1) 0%,
+        rgba(58, 167, 255, 0.1) 99.65%
+      ) !important;
+      height: 300px;
+      padding: 20px 10px;
+      border-radius: 10px ;
+}
+
+.hw_slie{
+    height: 424px;
+}
+
+.slider_card {
+    text-decoration: none;
+    border-radius: 40px;
+    color: #151522;
+    padding: 16px 24px 40px;
+    background-color: #FFFFFF;
+}
+
+
+.eco_native{
+    background-color: #CFFFF4;
+    padding: 30px 10px ;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .buy_main_box_here{
+        height: auto !important;
+    }
+    .hw_slie{
+        height: auto !important
+        ;
+    }
+}

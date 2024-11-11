@@ -1,0 +1,14 @@
+.Aabout-para{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding:20px 40px 20px 40px;
+    text-align: center;
+    font-size:1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .Aabout-para {
+        padding: 10px 10px 10px 10px; /* Adjust the padding for smaller screens */
+    }
+}

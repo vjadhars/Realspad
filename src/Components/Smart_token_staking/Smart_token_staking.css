@@ -1,0 +1,156 @@
+.main_token_staking_page{
+    /* background-image: url('../Assets/bg5.png'); */
+    /* background-position:center; */
+    padding: 40px 0px;
+}
+.token_staking_box{
+    background: linear-gradient(122.23deg, rgba(45, 255, 237, 0.1) 0%, rgba(58, 167, 255, 0.1) 99.65%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
+    padding: 20px;
+    position: relative;
+    z-index: 3 !important;
+    /* width: 60%; */
+
+}
+.main_Box_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.lef_token_stk_co h1 {
+    /* text-align: center; */
+    color: #151522 !important;
+    font-size: 32px;
+      font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.toatal_Stack p {
+    color: #151522;
+    margin-bottom: 0px;
+}
+
+.plans_box {
+    background: #14202E;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner_days_{
+      font-family: "Red Hat Text", sans-serif !important;  
+
+
+    font-size: 18px;
+    text-align: center;
+    color: #151522 !important;
+/* background-color: ; */
+border-radius: 10px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+
+.plan_text {
+    color:#151522;
+    font-weight: bold;
+    font-size: 18px;
+      font-family: "Red Hat Text", sans-serif !important;  
+
+    margin-bottom: 0;
+
+
+}
+.plan_eng{
+    margin-bottom: 0px;
+}
+
+
+.mart_logo_wap {
+    font-size: 18px;
+    color: #151522 !important;
+    font-weight: bold;
+}
+
+.apy_rates  h1{
+    font-size: 22px;
+    font-weight: 700;
+      font-family: "Red Hat Text", sans-serif !important;  
+
+
+    color: #151522 !important;
+
+}
+
+.swap_input_b {
+    background-color: transparent;
+    border: 1px solid #0E79AB   ;
+    padding: 5px 0px;
+   border-radius: 10px;
+}
+
+.wap_iiinnn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    width: 80%;
+    color: #151522;
+}
+
+.wap_iiinnn2 {
+    background-color: #011F48;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    width: 80%;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.swap_input_b button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #151522;
+    padding: 0px 15px;
+}
+
+
+.swap_clr_btn{
+    background-color: #0E79AB;
+    border: none;
+    border-radius: 10px;
+    color: #151522;
+    width: 100%;
+    padding: 15px;
+    margin-top: 1rem;
+}
+
+.token_ts {
+    position: absolute;
+    top: 60%;
+    width: 25%;
+    left:40px;
+}
+
+
+@media only screen and (max-width:600px){
+    .inner_days_{
+        padding: 10px 8px;
+    }
+}
+.Apr_div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Apr_div p{
+    color: #151522;
+}

@@ -1,0 +1,9 @@
+.about-para{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding:20px 40px 20px 40px;
+    text-align: center;
+    font-size:1.5rem;
+    /* border-bottom: 1px solid #ffffff; */
+    font-family: 'Inter', sans-serif;
+}

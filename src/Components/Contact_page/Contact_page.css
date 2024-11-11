@@ -1,0 +1,68 @@
+.main_contpage {
+    padding: 40px 10px ;
+}
+
+.cont_head {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-weight: 500;
+    position: relative;
+}
+.cont_head::after{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    content: "";
+    background-position: center;
+    /* -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%); */
+    bottom: -24px;
+    left: 41%;
+    width: 200px;
+    aspect-ratio: 7/1;
+    /* background-image: url(../Assets/header.svg); */
+}
+
+
+.my_contact_id{
+    background: #262626d6 !important;
+    width: 100%;
+    padding: 15px ;
+    border: none !important;
+    border-radius: 5px ;
+    /* font-family: 'Rajdhani', sans-serif; */
+    color: white;
+
+
+}
+.my_contact_id:focus{
+    border: 1px solid #0074FF;
+    outline: 1px solid #0074FF ;
+}
+
+.aisng {
+    margin-top: 3rem !important;
+}
+.send_msg{
+    padding: 15px;
+    background-color: #0074FF;
+    border-radius: 10px;
+    outline: none;
+    /* font-family: 'Rajdhani', sans-serif; */
+font-weight: 600;
+    border: none;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width:600px){
+    .cont_head::after{
+        left:21%;
+    }
+}

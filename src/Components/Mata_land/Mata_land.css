@@ -1,0 +1,37 @@
+.main_mata_land{
+    background: linear-gradient(92.55deg, rgba(0, 255, 225, 0.1) -16.31%, rgba(0, 166, 255, 0.1) 41.79%, rgba(255, 102, 183, 0.1) 98.69%);
+    mix-blend-mode: normal;
+    padding: 40px 10px ;
+}
+.right_text h5{
+    margin-bottom: 0px !important;
+    color: #151522;
+   font-family: "Red Hat Text", sans-serif;  
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.right_text h6{
+    margin-bottom: 0px !important;
+    color: #151522;
+   font-family: "Red Hat Text", sans-serif;  
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.txt_clr{
+    color: #151522 !important;
+  
+
+
+}
+
+.mata_home_page{
+    height: 450px !important;
+    aspect-ratio: 3 / 2;
+}

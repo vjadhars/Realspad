@@ -1,0 +1,166 @@
+.main_landing {
+  padding: 40px 10px;
+  /* background-image: url('../Assets/bg5.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
+.main_div_landing {
+  /* margin-top: 5rem; */
+}
+
+.main_div_Text {
+  margin-top: 3rem;
+}
+
+.reward_btn {
+  padding: 10px 20px;
+  background-color: #1199fa;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-top: 1rem;
+  font-family: "Red Hat Text", sans-serif !important;
+}
+.main_heading_landing {
+  color: #151522;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Red Hat Text", sans-serif !important;
+
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #151522;
+}
+
+.landing_box {
+  background: linear-gradient(
+    122.23deg,
+    rgba(45, 255, 237, 0.1) 0%,
+    rgba(58, 167, 255, 0.1) 99.65%
+  );
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 20px;
+  position: relative;
+  z-index: 3 !important;
+}
+
+.bg_landing {
+  position: absolute;
+  background-color: #002d63;
+  top: 0px;
+  width: 400px;
+  height: 300px;
+  border-radius: 40%;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+.this_ha {
+  z-index: 10 !important;
+}
+
+.info_pre h6 {
+  color: #151522;
+  font-size: 14px;
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
+.info_pre h2 {
+  font-size: 1.1rem;
+  color: #151522;
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
+.buy_br {
+  background-color: #14202e;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
+.buy_br h5 {
+  color: #151522;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
+.rate h4 {
+  color: #151522;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
+.buy_chain_box {
+  padding: 10px;
+  border-radius: 10px;
+
+  font-family: "Red Hat Text", sans-serif !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_heading_landing {
+    font-size: 28px !important;
+    font-family: "Red Hat Text", sans-serif !important;
+  }
+  .main_landing {
+    padding: 40px 0px;
+  }
+
+  .info_pre h2 {
+    font-size: 18px;
+    font-family: "Red Hat Text", sans-serif !important;
+  }
+
+  .buy_br h5 {
+    font-size: 20px;
+    font-family: "Red Hat Text", sans-serif !important;
+  }
+
+  .pad_side{
+    padding-left:0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+
+@media only screen and (min-width:601px) and (max-width:999px){
+ .main_landing{
+padding: 30px 0px !important; 
+}
+/* .pad_side  {
+  padding-left: 0px !important;
+  padding-right: 0px !important ;
+} */
+
+.b_mnta{
+  padding: 10px 5px;
+  white-space: nowrap;
+}
+.b_mntaa{
+  padding: 10px 5px;
+  white-space: break-spaces;
+
+}
+.product_card{
+  padding: 20px 15px  !important;
+}
+.secnd_ro{
+  height: 420px !important;
+}
+.buy_main_box_here{
+  height: auto !important;
+}
+ }

@@ -1,0 +1,89 @@
+
+
+.main_secure_page {
+    padding: 50px 10px;
+  font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.se_head {
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+  font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.se_para {
+    color: #151522;
+    font-size: 16px;
+    position: relative;
+  font-family: "Red Hat Text", sans-serif !important;  
+
+
+    text-align: left;
+}
+
+.se_para::after {
+    position: absolute;
+    content: "";
+    background-color: #0074FF;
+    height: 100%;
+    width: 3px;
+    left: -4%;
+    top: 0px;
+}
+
+.black_box h1 {
+    color: #151522;
+    font-weight: 700;
+    font-size: 1.4rem;
+  font-family: "Red Hat Text", sans-serif !important;  
+
+
+}
+
+.black_box p {
+    color: #151522;
+  font-family: "Red Hat Text", sans-serif !important;  
+
+
+}
+
+.black_box {
+    background: linear-gradient(122.23deg, rgba(45, 255, 237, 0.1) 0%, rgba(58, 167, 255, 0.1) 99.65%);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+
+.resvers {
+    background: linear-gradient(to top, #181818, #000) !important;
+
+}
+
+@media screen and (max-width:600px) {
+    .se_head {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 400;
+      font-family: "Red Hat Text", sans-serif !important;  
+
+    }
+
+    .resvers {
+        background: linear-gradient(to bottom, #181818, #000) !important;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:993px) {
+    .se_head {
+        color: white;
+        font-size: 1.9rem;
+        font-weight: 400;
+      font-family: "Red Hat Text", sans-serif !important;  
+
+    }
+}

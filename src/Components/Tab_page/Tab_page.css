@@ -1,0 +1,179 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+
+    /* background-color: #6737EE!important; */
+    /* border-radius: 20px !important; */
+    padding: 0px 30px;
+    height: 1em !important;
+    font-weight: 700;
+
+    color: rgb(229, 229, 229) !important;
+}
+
+.css-1q2h7u5.Mui-selected {
+    /* background-color: #6737EE!important; */
+    border-radius: 20px !important;
+    padding: 0px 20px;
+    height: 1em !important;
+    font-weight: 700 !important;
+
+    color: rgb(229, 229, 229) !important;
+}
+
+
+.MuiButtonBase-root {
+    /* color: ; */
+    font-weight: 700;
+
+    color: rgba(229, 229, 229, 0.5) !important;
+}
+
+.main_div_stking {
+    margin-top: 1rem;
+}
+
+.tab_imgss {
+    width: 30px;
+}
+
+
+.box_busd {
+    background-color: transparent;
+    border: 1px solid #0E79AB;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+.box_busd p {
+    color: #151522;
+    margin-bottom: 0px;
+
+}
+
+.box_busd input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: #151522;
+
+}
+
+.MuiTabs-flexContainer {
+    /* display: flex !important; */
+    /* justify-content: center !important; */
+    /* border: 2px solid white; */
+    /* padding: 5px 20px 5px 20px; */
+    /* border-radius: 30px; */
+    /* width: 55%; */
+    /* align-items: center; */
+    /* margin: 1rem 0px; */
+    /* position: relative; */
+    /* left: 5rem; */
+}
+
+.css-ttwr4n {
+    display: none !important;
+}
+
+
+.css-19kzrtu {
+    padding: 0px !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    background-color: transparent !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    display: none !important;
+}
+
+.buy_BTN {
+    /* width: 100%; */
+    padding: 15px;
+    background: linear-gradient(89deg, #00BFA9 -0.45%, #00A6FF 50.36%, #E0B8FF 100.12%);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #151522;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-family: "Red Hat Text", sans-serif !important;  
+    text-transform:capitalize;
+    margin-left: 1rem
+
+}
+
+.bnb_Text {
+    border: 1px solid #0E79AB !important;
+    padding: 5px 8px;
+    /* border-radius: 15px; */
+    /* margin-left: 4rem; */
+    font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.balnce_text {
+    color: #151522;
+    /* margin-top: 1rem; */
+    /* margin-left: 4rem */
+    font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+.first_Box_stking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: "Red Hat Text", sans-serif !important;  
+
+}
+
+@media screen and (max-width:800px) {
+    .bnb_Text {
+        border: 1px solid #0074FF;
+        padding: 8px;
+        border-radius: 15px;
+        margin-left: 0rem;
+        width: 115px !important;
+        display: flex;
+        align-items: center ;
+    }
+
+    .bnb_Text img {
+        width: 35%;
+        font-family: "Red Hat Text", sans-serif !important;  
+
+    }
+
+    .bnb_Text span {
+        font-size: 14px;
+    }
+
+    .balnce_text {
+        color: #151522;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        font-family: "Red Hat Text", sans-serif !important;  
+
+
+    }
+
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}

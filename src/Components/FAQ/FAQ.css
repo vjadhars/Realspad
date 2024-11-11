@@ -1,0 +1,113 @@
+.main_faq_bbg{
+    /* background-color: #000000; */
+    padding: 60px 10px;
+    border-bottom: 1px solid #000000;
+    font-family: 'Inter', sans-serif !important;
+}
+.faq_par{
+    color: #000000;
+    margin-bottom: 0px;
+    padding: 2rem 1rem;
+    text-align: left;
+    font-size: 1rem ;
+}
+
+
+
+.faq_main_he h2 {
+    font-size: 48px !important;
+}
+
+
+.accordion-button{
+    font-size: 24px;
+    /* text-transform: capitalize;   */
+      padding: 12px 40px 12px 0 !important;
+    color: #000000 !important;
+    font-weight: 400;
+    margin: 0;
+    cursor: pointer;
+}
+.accordion-header{
+    background-color: transparent !important    ;
+    border: none !important;
+    padding: 15px 5px;
+}
+.accordion-item{
+    border: none !important;
+    box-shadow:none !important ;
+    background-color: transparent !important;
+    border-bottom: 1px solid #000000 !important;
+    border-radius: none !important;
+    margin-top:.05rem;
+}
+.accordion-body{
+    padding-left: 0px !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: none !important;
+    color: #000000 !important;
+}
+
+.accordion-button{
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: none !important;
+}
+
+.accordion-button:focus {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: none !important;
+}
+
+.acc_para{
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 200;
+    color: #000000 !important;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-image: url(../Assets/plus.png);
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../Assets/minus.png) !important;
+}
+
+
+@media only screen and (max-width:600px){
+    .faq_main_he h2 {
+        font-size: 32px !important;
+    }
+    .accordion-button{
+        font-size: 20px !important;
+        padding: 12px 6px 12px 0 !important
+    }
+    .soical-icons{
+        gap: 4px !important;
+    }
+}
+
+
+
+.accordion-item:last-of-type  {
+    border-radius: 0px !important;
+}
+
+.accordion-item:first-of-type{
+    border-radius: 0px !important;
+}
